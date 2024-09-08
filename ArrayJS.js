@@ -51,3 +51,15 @@ const mystrarr1 = ["AS","MS","KS"]
 
 console.log("Mujtaba");
 console.log(Array.from("Mujtaba"));
+var Objarray = Array.from({name:"ABCED"})
+console.log(Objarray);
+
+let num1 = 100;
+let num2 = 200;
+let num3 = 300;
+
+console.log(Array.of(num1,num2,num3))
+
+
+var multiarray = [  1, 2, 4, 5, 3,  [5,[100,200], 6], 7, 8]
+console.log(multiarray.flat(Infinity));
